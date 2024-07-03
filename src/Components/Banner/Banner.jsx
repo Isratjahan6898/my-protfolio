@@ -1,5 +1,7 @@
 
 import img1 from '../../assets/Image/israt.jpg'
+
+import resume from '../../assets/resume/israt jahan resume.pdf'
 const Banner = () => {
     return (
         <div>
@@ -16,7 +18,11 @@ const Banner = () => {
       </p>
 
       <div>
+
+        <a href={resume} download=''>
         <button className='btn'> download resume</button>
+        </a>
+        {/* <button className='btn'> download resume</button> */}
       </div>
      
     </div>
