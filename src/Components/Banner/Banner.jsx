@@ -3,11 +3,11 @@ import img1 from '../../assets/Image/israt.jpg'
 const Banner = () => {
     return (
         <div>
-            <div className="hero  bg-base-200 h-[500px]">
+            <div className="hero h-[500px]">
   <div className="hero-content flex-col lg:flex-row-reverse px-[150px] gap-[60px]">
     <img
       src={img1}
-      className="max-w-sm rounded-full  h-[350px] w-[350px] shadow-2xl" />
+      className="max-w-sm rounded-full  h-[250px] w-[350px] shadow-2xl" />
     <div>
       <h1 className="text-3xl font-bold">Hi, I am Israt Jahan</h1>
       <h1 className="text-3xl font-bold">Web Developer</h1>

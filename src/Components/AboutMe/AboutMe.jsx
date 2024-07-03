@@ -1,21 +1,20 @@
-
+import img2 from '../../assets/Images/about.gif'
 
 const AboutMe = () => {
     return (
-        <div className="mt-[100px]">
-            <h1>About Me</h1>
-            <div className="hero bg-base-200 min-h-screen">
-  <div className="hero-content flex-col lg:flex-row">
+        <div className="mt-[100px] mx-[250px]">
+            <h1 className="text-center">About Me</h1>
+            <div className="hero  min-h-screen">
+  <div className="hero-content flex-col  lg:flex-row">
     <img
-      src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
+      src={img2}
       className="max-w-sm rounded-lg shadow-2xl" />
     <div>
-      <h1 className="text-5xl font-bold">Box Office News!</h1>
-      <p className="py-6">
-        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-        quasi. In deleniti eaque aut repudiandae et a id nisi.
+     
+      <p className="py-6 pl-[20px]">
+      Israt Jahan is a dedicated web developer specializing in crafting dynamic and user-centric web applications. With a strong command of technologies such as React, Node.js, Express.js, HTML, CSS, Tailwind, and JavaScript, she excels in building responsive and visually engaging websites. Her expertise spans both front-end and back-end development, ensuring seamless and efficient user experiences. Israt's attention to detail and commitment to excellence make her a valuable asset in any web development project.
       </p>
-      <button className="btn btn-primary">Get Started</button>
+     
     </div>
   </div>
 </div>
