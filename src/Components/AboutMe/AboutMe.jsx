@@ -29,7 +29,7 @@ const AboutMe = () => {
     <div data-aos="fade-up">
      
       <p className="py-6 pl-[20px]">
-     I am <span className='font-bold italic'>Israt Jahn</span>, I am a dedicated web developer specializing in crafting dynamic and user-centric web applications. With a strong command of technologies such as React, Node.js, Express.js, HTML, CSS, Tailwind, and JavaScript, she excels in building responsive and visually engaging websites. Her expertise spans both front-end and back-end development, ensuring seamless and efficient user experiences. My attention to detail and commitment to excellence make her a valuable asset in any web development project.
+     I am <span className='font-bold italic text-gradient'>Israt Jahn</span>, I am a dedicated web developer specializing in crafting dynamic and user-centric web applications. With a strong command of technologies such as React, Node.js, Express.js, HTML, CSS, Tailwind, and JavaScript, she excels in building responsive and visually engaging websites. Her expertise spans both front-end and back-end development, ensuring seamless and efficient user experiences. My attention to detail and commitment to excellence make her a valuable asset in any web development project.
       </p>
      
     </div>

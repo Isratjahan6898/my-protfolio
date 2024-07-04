@@ -21,10 +21,10 @@ const Education = () => {
    
    <h2 className="card-title">Secondary School Certificate (SSC)</h2>
    <ul>
-    <li><span>Institution: </span>Mirpur Bangla School & College</li>
-    <li><span>Field of Study: </span>Science</li>
-    <li><span>GPA: </span>5</li>
-    <li><span>Year of Completion: </span>2014</li>
+    <li><span className="font-bold">Institution: </span>Mirpur Bangla School & College</li>
+    <li><span className="font-bold">Field of Study: </span>Science</li>
+    <li><span className="font-bold">GPA: </span>5</li>
+    <li><span className="font-bold">Year of Completion: </span>2014</li>
    </ul>
   
    
@@ -39,10 +39,10 @@ const Education = () => {
   <div className="card-body">
     <h2 className="card-title">Higher Secondary Certificate (HSC)</h2>
     <ul>
-    <li><span>Institution:Dhaka City College </span></li>
-    <li><span>Field of Study: </span>Science</li>
-    <li><span>GPA: </span>5</li>
-    <li><span>Year of Completion: </span>2016</li>
+    <li><span className="font-bold">Institution:</span>Dhaka City College</li>
+    <li><span className="font-bold">Field of Study: </span>Science</li>
+    <li><span className="font-bold">GPA: </span>5</li>
+    <li><span className="font-bold">Year of Completion: </span>2016</li>
    </ul>
     
    
@@ -60,10 +60,10 @@ const Education = () => {
   <div className="card-body">
     <h2 className="card-title">Bachelor of Science in Computer Science and Engineering (BSc in CSE)</h2>
     <ul>
-    <li><span>Institution: </span>Dhaka City Colege</li>
+    <li><span className="font-bold">Institution: </span>Dhaka City Colege</li>
     
-    <li><span>CGPA: </span>3.50</li>
-    <li><span>Year of Completion: </span>2022</li>
+    <li><span className="font-bold">CGPA: </span>3.50</li>
+    <li><span className="font-bold">Year of Completion: </span>2022</li>
    </ul>
   
   </div>

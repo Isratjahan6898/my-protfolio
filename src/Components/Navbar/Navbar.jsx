@@ -49,28 +49,30 @@ const Navbar = () => {
 
  
     <p className="flex space-x-4 p-4 ">
-        <Link to="about"   spy={true} smooth={true} offset={-100} duration={500}
+        <Link to="about"   spy={true} 
+        smooth={true} offset={-100} 
+        duration={500}
         
         
         className="cursor-pointer mr-[20px] font-bold"
-        activeClass="text-red-500"
+        activeClass="text-[#80277D] text-1xl border-b-2 border-purple-900"
         >
           About
         </Link>
         <Link to="skill"   spy={true} smooth={true} offset={-100} duration={500} className="cursor-pointer mr-[20px] font-bold"
-        activeClass="text-red-500">
+        activeClass="text-[#80277D] text-1xl border-b-2 border-purple-900">
           skills
         </Link>
         <Link to="education"   spy={true} smooth={true} offset={-100} duration={500} className="cursor-pointer mr-[20px] font-bold"
-        activeClass="text-red-500">
+        activeClass="text-[#80277D] text-1xl border-b-2 border-purple-900">
           Education
         </Link>
-        <Link to="projects"   spy={true} smooth={true} offset={-100} duration={500} className="cursor-pointer mr-[20px] font-bold"
-        activeClass="text-red-500">
+        <Link to="project"   spy={true} smooth={true} offset={-100} duration={500} className="cursor-pointer mr-[20px] font-bold"
+        activeClass="text-[#80277D] text-1xl border-b-2 border-purple-900">
           Projects
         </Link>
         <Link to="contact"   spy={true} smooth={true} offset={-150} duration={500} className=" cursor-pointer mr-[20px] bg-none font-bold"
-        activeClass="text-red-500">
+        activeClass="text-[#80277D] text-1xl border-b-2 border-purple-900">
           Contact Us
         </Link>
       </p>

@@ -1,4 +1,4 @@
-import { EmailJSResponseStatus } from "@emailjs/browser";
+import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 import AOS from "aos";
 import { useEffect } from "react";
 import { useState } from "react";
@@ -33,7 +33,7 @@ const Contact = () => {
         console.log(templateParams);
     
         // send email to emailjs
-        EmailJSResponseStatus
+        emailjs
           .send(serviceId, templateId, templateParams, publicKey)
           .then((res) => {
             console.log("email sent", res);
@@ -85,7 +85,7 @@ const Contact = () => {
           </div>
           <div className="space-y-3 text-xl">
             <div className="flex gap-2 items-center">
-              <FaPhone /> +8801713870701
+              <FaPhone /> +8801713870700
             </div>
             <div className="flex gap-2 items-center">
               <CiMail />israt6898@gmail.com
