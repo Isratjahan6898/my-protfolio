@@ -6,14 +6,14 @@ import devaintart from '../../assets/Project/screencapture-deviantart-project-we
 import { Fade } from 'react-awesome-reveal';
 const Project = () => {
     return (
-        <div className="mt-[150px]  lg:mx-[100px] mb-[50px]">
+        <div id='project' className="mt-[150px]  lg:mx-[100px] mb-[50px]">
               <div className="mb-[60px]">
             <Fade direction={'down'}>
-            <h1 className="text-center  font-bold text-3xl">Education</h1>
+            <h1 className="text-center  font-bold text-3xl text-gradient">My Projects</h1>
           </Fade>
             
             {/* <h1 className="text-center  font-bold text-3xl">About Me</h1> */}
-            <hr className='w-[250px] border-b-4 ml-[80px] border-blue-800 lg:ml-[400px] hover:border-double' />
+            <hr className='w-[250px] border-b-4 ml-[40px] border-purple-800 lg:ml-[400px] hover:border-double' />
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-[20px]">
              <div>
@@ -26,7 +26,7 @@ const Project = () => {
       src={blood4life}
       className="w-[100px] rounded-lg shadow-2xl" />
     <div className='ml-[20px]'>
-      <h1 className="text-3xl font-bold">Blood4Life</h1>
+      <h1 className="text-3xl font-bold text-gradient">Blood4Life</h1>
       <p className="py-6">
         <span>Features:</span>
         <ul className='list-disc'>
@@ -39,11 +39,11 @@ const Project = () => {
         <span>Technology: Html, Css, tailwind, react.js, firebase, mongodb, node.js, express.js, stripe</span>
       </p>
       <a href="https://github.com/Isratjahan6898/blood-for-life-client">
-       <button className='btn'>Github Link</button>
+       <button className='btn bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-bold'>Github Link</button>
       </a>
 
       <a href="https://blood-donetion.web.app/">
-       <button className='btn'>Live Link</button>
+       <button className='btn bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-bold'>Live Link</button>
       </a>
 
     </div>
@@ -62,7 +62,7 @@ const Project = () => {
       src={glowbloom}
       className="w-[100px] rounded-lg shadow-2xl" />
     <div className='ml-[20px]'>
-      <h1 className="text-3xl font-bold">GlowBloom</h1>
+      <h1 className="text-3xl font-bold text-gradient">GlowBloom</h1>
       <p className="py-6">
         <span>Features:</span>
         <ul className='list-disc'>
@@ -76,11 +76,11 @@ const Project = () => {
         Html, Css, tailwind, react.js, firebase, mongodb, node.js, express.js
       </p>
       <a href="https://github.com/Isratjahan6898/glowBloom-client">
-       <button className='btn'>Github Link</button>
+       <button className='btn bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-bold'>Github Link</button>
       </a>
 
       <a href="https://glowbloom-project.web.app/">
-       <button className='btn'>Live Link</button>
+       <button className='btn bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-bold'>Live Link</button>
       </a>
 
     </div>
@@ -101,7 +101,7 @@ const Project = () => {
       src={devaintart}
       className="w-[100px] rounded-lg shadow-2xl" />
     <div className='ml-[20px]'>
-      <h1 className="text-3xl font-bold">DeviantArt</h1>
+      <h1 className="text-3xl font-bold text-gradient">DeviantArt</h1>
       <p className="py-6">
         <span>Features:</span>
         <ul className='list-disc'>
@@ -115,11 +115,11 @@ const Project = () => {
       </p>
 
       <a href="https://github.com/Isratjahan6898/deviantArt-client">
-       <button className='btn'>Github Link</button>
+       <button className='btn bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-bold'>Github Link</button>
       </a>
 
       <a href="https://deviantart-project.web.app/">
-       <button className='btn'>Live Link</button>
+       <button className='btn bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-bold'>Live Link</button>
       </a>
 
      

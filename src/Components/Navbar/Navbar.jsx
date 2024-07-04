@@ -1,4 +1,5 @@
-import { NavLink } from "react-router-dom";
+
+import { Link } from 'react-scroll';
 import './Navbar.css'
 
 
@@ -25,23 +26,17 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-        <NavLink>
+       
         <p className="mb-[10px] font-bold">About Me</p>
-        </NavLink>
-
-        <NavLink>
+       
         <p className="mb-[10px] font-bold">Skills</p>
-        </NavLink>
-        <NavLink>
+       
         <p className="mb-[10px] font-bold">Education</p>
-        </NavLink>
-
-        <NavLink>
+       
         <p className="mb-[10px] font-bold">Project</p>
-        </NavLink>
-        <NavLink>
+       
         <p className="mb-[10px] font-bold">Contact Us</p>
-        </NavLink>
+       
 
      
       
@@ -52,22 +47,35 @@ const Navbar = () => {
   <div className="navbar-end hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
 
-      
-      <NavLink to='about'>
-      <p className="mr-[20px] font-bold">About Me</p>
-      </NavLink>
-      <NavLink>
+ 
+    <p className="flex space-x-4 p-4 ">
+        <Link to="about"   spy={true} smooth={true} offset={-100} duration={500}
+        
+        
+        className="cursor-pointer mr-[20px] font-bold"
+        activeClass="text-red-500"
+        >
+          About
+        </Link>
+        <Link to="skill"   spy={true} smooth={true} offset={-100} duration={500} className="cursor-pointer mr-[20px] font-bold"
+        activeClass="text-red-500">
+          skills
+        </Link>
+        <Link to="education"   spy={true} smooth={true} offset={-100} duration={500} className="cursor-pointer mr-[20px] font-bold"
+        activeClass="text-red-500">
+          Education
+        </Link>
+        <Link to="projects"   spy={true} smooth={true} offset={-100} duration={500} className="cursor-pointer mr-[20px] font-bold"
+        activeClass="text-red-500">
+          Projects
+        </Link>
+        <Link to="contact"   spy={true} smooth={true} offset={-150} duration={500} className=" cursor-pointer mr-[20px] bg-none font-bold"
+        activeClass="text-red-500">
+          Contact Us
+        </Link>
+      </p>
 
-      </NavLink>
-      <NavLink>
-      <p className="mr-[20px] font-bold">Education</p>
-      </NavLink>
-     <NavLink>
-     <p className="mr-[20px] font-bold">Project</p>
-     </NavLink>
-      <NavLink>
-      <p className="mr-[20px] font-bold">Contact Us</p>
-      </NavLink>
+      
     </ul>
   </div>
  

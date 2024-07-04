@@ -6,6 +6,7 @@ import toast from "react-hot-toast";
 import { CiMail } from "react-icons/ci";
 import { FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 import { Button, TextField } from "@mui/material";
+import './Contact.css'
 
 
 const Contact = () => {
@@ -55,14 +56,14 @@ const Contact = () => {
         };
       }, []);
     return (
-        <div className="mt-[100px] ">
+        <div id="contact" className="mt-[100px] ">
           
           
 
-          <h1 data-aos="fade-up" className="text-center  font-bold text-3xl">
+          <h1 data-aos="fade-up" className="text-center  font-bold text-3xl text-gradient">
         Contact Me
       </h1>
-      <hr className='w-[200px] border-b-4 ml-[80px] border-blue-800 lg:ml-[530px] hover:border-double' />
+      <hr className='w-[200px] border-b-4 ml-[80px] border-purple-800 lg:ml-[530px] hover:border-double' />
           
 
             <div>
@@ -76,7 +77,7 @@ const Contact = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 items-center lg:space-x-6 space-y-6 lg:space-y-0 w-full max-w-7xl p-8 sm:p-12 rounded-3xl shadow-lg overflow-hidden bg-brown-50">
         <div className="space-y-20">
           <div>
-            <h1 className="text-4xl font-light mb-2">Get In Touch</h1>
+            <h1 className="text-4xl font-bold mb-2 text-gradient">Get In Touch</h1>
             <p>
               Would you like to communicate with me? If so, please send me a
               note. I like hearing from you!
@@ -162,10 +163,10 @@ const Contact = () => {
               sx={{
                 mt: 2,
                 py: 1.5,
-                background: "linear-gradient(to right, #bcaaa4, #6d4c41)",
+                background: "linear-gradient(to right, #CF40CA, #7642CF)",
                 color: "white",
                 "&:hover": {
-                  background: "linear-gradient(to right, #6d4c41, #bcaaa4)",
+                  background: "linear-gradient(to right, #7642CF, #CF40CA)",
                   color: "white",
                 },
               }}

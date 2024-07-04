@@ -12,6 +12,7 @@ import { Fade } from 'react-awesome-reveal'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react'
+import './Skill.css'
 
 const Skills = () => {
 
@@ -21,14 +22,14 @@ const Skills = () => {
     });
   }, []);
     return (
-        <div className="mt-[60px] lg:mx-[200px]">
+        <div id='skill' className="mt-[60px] lg:mx-[200px]">
            <div>
             <Fade direction={'down'}>
-            <h1 className="text-center  font-bold text-3xl">Skills I Have</h1>
+            <h1 className="text-center  font-bold text-3xl text-gradient">Skills I Have</h1>
           </Fade>
             
             {/* <h1 className="text-center  font-bold text-3xl">About Me</h1> */}
-            <hr className='w-[250px] border-b-4 ml-[80px] border-blue-800 lg:ml-[300px] hover:border-double' />
+            <hr className='w-[250px] border-b-4 ml-[40px] border-purple-800 lg:ml-[300px] hover:border-double' />
             </div>
             <div data-aos="zoom-in"  className='text-center grid grid-cols-3 gap-[30px] justify-center items-center'>
             <div className="flex mt-[40px] items-center gap-4  rounded-sm px-1 m-[2px]">

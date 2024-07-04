@@ -3,14 +3,14 @@ import { Fade } from "react-awesome-reveal";
 
 const Education = () => {
     return (
-        <div className="lg:mx-[200px] mt-[100px]">
+        <div id="education" className="lg:mx-[200px] mt-[100px]">
            <div className="mb-[60px]">
             <Fade direction={'down'}>
-            <h1 className="text-center  font-bold text-3xl">Education</h1>
+            <h1 className="text-center  font-bold text-3xl text-gradient">Education</h1>
           </Fade>
             
             {/* <h1 className="text-center  font-bold text-3xl">About Me</h1> */}
-            <hr className='w-[250px] border-b-4 ml-[80px] border-blue-800 lg:ml-[300px] hover:border-double' />
+            <hr className='w-[250px] border-b-4 ml-[40px] border-purple-800 lg:ml-[300px] hover:border-double' />
             </div>
 
             <div className="flex flex-col lg:flex-row gap-[30px]">

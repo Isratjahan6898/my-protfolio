@@ -3,6 +3,7 @@ import { Fade } from "react-awesome-reveal";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import './AboutMe.css'
 
 const AboutMe = () => {
   useEffect(() => {
@@ -11,14 +12,14 @@ const AboutMe = () => {
     });
   }, []);
     return (
-        <div  className="mt-[100px] lg:mx-[250px]">
+        <div id='about' className="mt-[100px] lg:mx-[250px]">
             <div>
             <Fade direction={'up'}>
-            <h1 className="text-center  font-bold text-3xl">About Me</h1>
+            <h1 className="text-center  font-bold text-3xl text-gradient ">About Me</h1>
           </Fade>
             
             {/* <h1 className="text-center  font-bold text-3xl">About Me</h1> */}
-            <hr className='w-[160px] border-b-4 ml-[80px] border-blue-800 lg:ml-[300px] hover:border-double' />
+            <hr className='w-[160px] border-b-4 ml-[80px] border-purple-800 lg:ml-[300px] hover:border-double' />
             </div>
             <div className="hero min-h-screen">
   <div className="hero-content flex-col lg:flex-row">

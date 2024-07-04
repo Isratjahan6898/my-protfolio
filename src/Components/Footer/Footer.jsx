@@ -14,10 +14,10 @@ const Footer = () => {
         </h1>
       </div>
       <p className="flex text-xl md:text-3xl gap-4 mt-4 md:mt-0">
-        <a href="https://github.com/nusratneela27">
+        <a href="https://github.com/Isratjahan6898">
           <FaGithub></FaGithub>
         </a>
-        <a href="https://www.linkedin.com/in/nusrat-jahan-neela">
+        <a href="https://www.linkedin.com/in/israt-jahan-9a68b923a/">
           <FaLinkedin></FaLinkedin>
         </a>
       </p>
