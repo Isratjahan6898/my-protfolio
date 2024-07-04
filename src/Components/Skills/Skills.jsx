@@ -8,12 +8,29 @@ import firebase from '../../assets/Image/firebase.png'
 import mongodb from '../../assets/Image/mongo.png'
 import node from '../../assets/Image/node (1).png'
 import exprss from '../../assets/Image/express.png'
+import { Fade } from 'react-awesome-reveal'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react'
 
 const Skills = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+    });
+  }, []);
     return (
-        <div className="mt-[60px] mx-[200px]">
-            <h1 className="text-center">Skills I have</h1>
-            <div className='text-center grid grid-cols-3 gap-[30px] justify-center items-center'>
+        <div className="mt-[60px] lg:mx-[200px]">
+           <div>
+            <Fade direction={'down'}>
+            <h1 className="text-center  font-bold text-3xl">Skills I Have</h1>
+          </Fade>
+            
+            {/* <h1 className="text-center  font-bold text-3xl">About Me</h1> */}
+            <hr className='w-[250px] border-b-4 ml-[80px] border-blue-800 lg:ml-[300px] hover:border-double' />
+            </div>
+            <div data-aos="zoom-in"  className='text-center grid grid-cols-3 gap-[30px] justify-center items-center'>
             <div className="flex mt-[40px] items-center gap-4  rounded-sm px-1 m-[2px]">
               <img src={html5}  />
               <h3 className="font-semibold">HTML5</h3>

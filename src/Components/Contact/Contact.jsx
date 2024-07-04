@@ -17,9 +17,9 @@ const Contact = () => {
         e.preventDefault();
     
         // EmailJs service ID, template ID, public key
-        const serviceId = "service_wr6zhjh";
-        const templateId = "template_bhogqnp";
-        const publicKey = "LxJqS-XXxqgol8RKC";
+        const serviceId = "service_ga4au47";
+        const templateId = "template_0zfi2em";
+        const publicKey = "5o6ZZatYE4dvpo-Yz";
     
         // new object
         const templateParams = {
@@ -56,14 +56,23 @@ const Contact = () => {
       }, []);
     return (
         <div className="mt-[100px] ">
-            <h1 className="text-center mb-[50px]">Contact Me</h1>
+          
+          
+
+          <h1 data-aos="fade-up" className="text-center  font-bold text-3xl">
+        Contact Me
+      </h1>
+      <hr className='w-[200px] border-b-4 ml-[80px] border-blue-800 lg:ml-[530px] hover:border-double' />
+          
 
             <div>
+
+           
             <section
-      id="contact"
+      
       className="flex flex-col w-full justify-center items-center m-auto pt-20 text-gray-800"
     >
-      <h1 className="text-4xl text-center font-light mb-6">Contact</h1>
+  
       <div className="grid grid-cols-1 md:grid-cols-2 items-center lg:space-x-6 space-y-6 lg:space-y-0 w-full max-w-7xl p-8 sm:p-12 rounded-3xl shadow-lg overflow-hidden bg-brown-50">
         <div className="space-y-20">
           <div>
@@ -75,10 +84,10 @@ const Contact = () => {
           </div>
           <div className="space-y-3 text-xl">
             <div className="flex gap-2 items-center">
-              <FaPhone /> +880 019 XXX XXXX
+              <FaPhone /> +8801713870701
             </div>
             <div className="flex gap-2 items-center">
-              <CiMail /> nusratneela27@gmail.com
+              <CiMail />israt6898@gmail.com
             </div>
             <div className="flex gap-2 items-center">
               <FaMapMarkerAlt /> Dhaka, Bangladesh

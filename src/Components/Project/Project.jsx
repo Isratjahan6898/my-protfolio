@@ -3,15 +3,24 @@ import blood4life from '../../assets/Project/screencapture-blood-donetion-web-ap
 import glowbloom from '../../assets/Project/screencapture-glowbloom-project-web-app-2024-07-03-23_09_22 (1).png'
 
 import devaintart from '../../assets/Project/screencapture-deviantart-project-web-app-2024-07-03-23_09_10.png'
+import { Fade } from 'react-awesome-reveal';
 const Project = () => {
     return (
-        <div className="mt-[150px] mx-[100px] mb-[50px]">
-            <h1 className="text-center mb-[70px]">My Project</h1>
-            <div className="grid grid-cols-2 gap-[20px]">
+        <div className="mt-[150px]  lg:mx-[100px] mb-[50px]">
+              <div className="mb-[60px]">
+            <Fade direction={'down'}>
+            <h1 className="text-center  font-bold text-3xl">Education</h1>
+          </Fade>
+            
+            {/* <h1 className="text-center  font-bold text-3xl">About Me</h1> */}
+            <hr className='w-[250px] border-b-4 ml-[80px] border-blue-800 lg:ml-[400px] hover:border-double' />
+            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-[20px]">
              <div>
                 {/* project 1 */}
+                <Fade direction={'left'}>
 
-                <div className="hero h-[490px] border ">
+                <div className="hero h-full lg:h-[490px] border ">
   <div className="hero-content flex-col  lg:flex-row">
     <img
       src={blood4life}
@@ -40,12 +49,14 @@ const Project = () => {
     </div>
   </div>
 </div>
+</Fade>
              </div>
 
              <div>
                 {/* project-2 */}
+                <Fade direction={'left'}>
 
-                <div className="hero h-[490px] border">
+                <div className="hero h-full lg:h-[490px] border">
   <div className="hero-content flex-col lg:flex-row">
     <img
       src={glowbloom}
@@ -75,6 +86,7 @@ const Project = () => {
     </div>
   </div>
 </div>
+</Fade>
              </div>
 
              
@@ -82,7 +94,8 @@ const Project = () => {
 
 
             <div className="flex justify-center items-center">
-            <div className="hero h-[490px] border mt-[40px] w-[550px]">
+            <Fade direction={'left'}>
+            <div className="hero h-full lg:h-[490px] border mt-[40px] w-[550px]">
   <div className="hero-content flex-col lg:flex-row">
     <img
       src={devaintart}
@@ -114,6 +127,7 @@ const Project = () => {
     </div>
   </div>
 </div>
+</Fade>
             </div>
         </div>
     );

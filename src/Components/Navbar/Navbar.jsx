@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+import './Navbar.css'
 
 
 const Navbar = () => {
@@ -23,24 +25,49 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-         <p className="mb-[10px]">About Me</p>
-      <p className="mb-[10px]">Skills</p>
-      <p className="mb-[10px]">Education</p>
-      <p className="mb-[10px]">Project</p>
-      <p className="mb-[10px]">Contact Us</p>
+        <NavLink>
+        <p className="mb-[10px] font-bold">About Me</p>
+        </NavLink>
+
+        <NavLink>
+        <p className="mb-[10px] font-bold">Skills</p>
+        </NavLink>
+        <NavLink>
+        <p className="mb-[10px] font-bold">Education</p>
+        </NavLink>
+
+        <NavLink>
+        <p className="mb-[10px] font-bold">Project</p>
+        </NavLink>
+        <NavLink>
+        <p className="mb-[10px] font-bold">Contact Us</p>
+        </NavLink>
+
+     
+      
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">CodeCraft by Israt</a>
+    <a className="btn btn-ghost text-xl text-gradient font-extrabold text-4xl italic">CodeCraft by Israt</a>
   </div>
   <div className="navbar-end hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
 
       
-      <p className="mr-[20px]">About Me</p>
-      <p className="mr-[20px]">Skills</p>
-      <p className="mr-[20px]">Education</p>
-      <p className="mr-[20px]">Project</p>
-      <p className="mr-[20px]">Contact Us</p>
+      <NavLink to='about'>
+      <p className="mr-[20px] font-bold">About Me</p>
+      </NavLink>
+      <NavLink>
+
+      </NavLink>
+      <NavLink>
+      <p className="mr-[20px] font-bold">Education</p>
+      </NavLink>
+     <NavLink>
+     <p className="mr-[20px] font-bold">Project</p>
+     </NavLink>
+      <NavLink>
+      <p className="mr-[20px] font-bold">Contact Us</p>
+      </NavLink>
     </ul>
   </div>
  

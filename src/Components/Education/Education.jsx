@@ -1,27 +1,40 @@
+import { Fade } from "react-awesome-reveal";
 
 
 const Education = () => {
     return (
-        <div className="mx-[200px] mt-[100px]">
-            <h1 className="text-center mt-[100px] mb-[80px]">Education</h1>
+        <div className="lg:mx-[200px] mt-[100px]">
+           <div className="mb-[60px]">
+            <Fade direction={'down'}>
+            <h1 className="text-center  font-bold text-3xl">Education</h1>
+          </Fade>
+            
+            {/* <h1 className="text-center  font-bold text-3xl">About Me</h1> */}
+            <hr className='w-[250px] border-b-4 ml-[80px] border-blue-800 lg:ml-[300px] hover:border-double' />
+            </div>
 
-            <div className="flex gap-[30px]">
+            <div className="flex flex-col lg:flex-row gap-[30px]">
                 <div>
+                <Fade direction={'left'}>
                 <div className="card bg-base-100 w-96 shadow-xl">
   <div className="card-body">
-    <h2 className="card-title">Secondary School Certificate (SSC)</h2>
+   
+   <h2 className="card-title">Secondary School Certificate (SSC)</h2>
    <ul>
     <li><span>Institution: </span>Mirpur Bangla School & College</li>
     <li><span>Field of Study: </span>Science</li>
     <li><span>GPA: </span>5</li>
     <li><span>Year of Completion: </span>2014</li>
    </ul>
+  
    
   </div>
 </div>
+</Fade>
                 </div>
 
                 <div>
+                <Fade direction={'right'}>
                 <div className="card bg-base-100 w-96 shadow-xl">
   <div className="card-body">
     <h2 className="card-title">Higher Secondary Certificate (HSC)</h2>
@@ -35,11 +48,14 @@ const Education = () => {
    
   </div>
 </div>
+</Fade>
                 </div>
+                
             </div>
 
 
             <div className="flex text-center items-center justify-center mt-[40px]">
+            <Fade direction={'down'}>
             <div className="card bg-base-100 w-96 shadow-xl">
   <div className="card-body">
     <h2 className="card-title">Bachelor of Science in Computer Science and Engineering (BSc in CSE)</h2>
@@ -52,6 +68,8 @@ const Education = () => {
   
   </div>
 </div>
+</Fade>
+
             </div>
 
         </div>
