@@ -11,7 +11,7 @@ const Banner = () => {
   <div className="hero-content flex-col lg:flex-row-reverse lg:px-[150px] gap-[60px]">
     <img
       src={img1}
-      className="max-w-sm rounded-full  h-[250px] w-[350px] shadow-2xl" />
+      className="max-w-sm rounded-full  h-[250px] lg:w-[350px] shadow-2xl" />
     <div>
       <h1 className="text-3xl font-bold">Hi,I am <span className='text-gradient'>Israt Jahan</span>  </h1>
       <h1 className="text-3xl font-bold">
@@ -24,7 +24,7 @@ const Banner = () => {
       />
       </h1>
       <p className="lg:py-6">
-      I am a front-end developer specializing in creating responsive, <br></br>user-friendly interfaces with HTML, CSS, and JavaScript for optimal user experiences
+      I am a front-end developer specializing in creating responsive, <br></br>user-friendly interfaces with HTML, CSS and JavaScript for<br></br> optimal user experiences
       </p>
 
       <div>

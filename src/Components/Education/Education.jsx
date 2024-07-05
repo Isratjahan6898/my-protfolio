@@ -10,13 +10,13 @@ const Education = () => {
           </Fade>
             
             {/* <h1 className="text-center  font-bold text-3xl">About Me</h1> */}
-            <hr className='w-[250px] border-b-4 ml-[40px] border-purple-800 lg:ml-[300px] hover:border-double' />
+            <hr className=' w-[250px] ml-[40px]  border-b-4 border-purple-800 lg:ml-[300px] hover:border-double' />
             </div>
 
             <div className="flex flex-col lg:flex-row gap-[30px]">
                 <div>
                 <Fade direction={'left'}>
-                <div className="card bg-base-100 w-96 shadow-xl">
+                <div className="card bg-base-100 lg:w-96 shadow-xl">
   <div className="card-body">
    
    <h2 className="card-title">Secondary School Certificate (SSC)</h2>
@@ -35,7 +35,7 @@ const Education = () => {
 
                 <div>
                 <Fade direction={'right'}>
-                <div className="card bg-base-100 w-96 shadow-xl">
+                <div className="card bg-base-100 lg:w-96 shadow-xl">
   <div className="card-body">
     <h2 className="card-title">Higher Secondary Certificate (HSC)</h2>
     <ul>
@@ -56,7 +56,7 @@ const Education = () => {
 
             <div className="flex text-center items-center justify-center mt-[40px]">
             <Fade direction={'down'}>
-            <div className="card bg-base-100 w-96 shadow-xl">
+            <div className="card bg-base-100 lg:w-96 shadow-xl">
   <div className="card-body">
     <h2 className="card-title">Bachelor of Science in Computer Science and Engineering (BSc in CSE)</h2>
     <ul>

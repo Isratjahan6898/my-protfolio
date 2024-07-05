@@ -13,7 +13,7 @@ const Project = () => {
           </Fade>
             
             {/* <h1 className="text-center  font-bold text-3xl">About Me</h1> */}
-            <hr className='w-[250px] border-b-4 ml-[40px] border-purple-800 lg:ml-[400px] hover:border-double' />
+            <hr className='w-[250px] border-b-4 ml-[0px] border-purple-800 lg:ml-[400px] hover:border-double' />
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-[20px]">
              <div>
