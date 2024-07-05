@@ -6,7 +6,7 @@ import devaintart from '../../assets/Project/screencapture-deviantart-project-we
 import { Fade } from 'react-awesome-reveal';
 const Project = () => {
     return (
-        <div id='project' className="mt-[150px]  lg:mx-[100px] mb-[50px]">
+        <div id='project' className="mt-[150px] mx-[50px]  lg:mx-[100px] mb-[50px]">
               <div className="mb-[60px]">
             <Fade direction={'down'}>
             <h1 className="text-center  font-bold text-3xl text-gradient">My Projects</h1>

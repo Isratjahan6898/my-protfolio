@@ -23,7 +23,7 @@ const Banner = () => {
         }}
       />
       </h1>
-      <p className="py-6">
+      <p className="lg:py-6">
       I am a front-end developer specializing in creating responsive, <br></br>user-friendly interfaces with HTML, CSS, and JavaScript for optimal user experiences
       </p>
 
