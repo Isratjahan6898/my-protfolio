@@ -26,7 +26,7 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-       
+{/*        
         <p className="mb-[10px] font-bold">About Me</p>
        
         <p className="mb-[10px] font-bold">Skills</p>
@@ -35,7 +35,38 @@ const Navbar = () => {
        
         <p className="mb-[10px] font-bold">Project</p>
        
-        <p className="mb-[10px] font-bold">Contact Us</p>
+        <p className="mb-[10px] font-bold">Contact</p> */}
+
+
+<p className="flex space-x-4 p-4 ">
+        <Link to="about"   spy={true} 
+        smooth={true} offset={-100} 
+        duration={500}
+        
+        
+        className="cursor-pointer mb-[10px] font-bold"
+        activeClass="text-[#80277D] text-1xl border-b-2 border-purple-900"
+        >
+          About
+        </Link>
+        <Link to="skill"   spy={true} smooth={true} offset={-100} duration={500} className="cursor-pointer mb-[10px] font-bold"
+        activeClass="text-[#80277D] text-1xl border-b-2 border-purple-900">
+          skills
+        </Link>
+        <Link to="education"   spy={true} smooth={true} offset={-100} duration={500} className="cursor-pointer mb-[10px] font-bold"
+        activeClass="text-[#80277D] text-1xl border-b-2 border-purple-900">
+          Education
+        </Link>
+        <Link to="project"   spy={true} smooth={true} offset={-100} duration={500} className="cursor-pointer mb-[10px] font-bold"
+        activeClass="text-[#80277D] text-1xl border-b-2 border-purple-900">
+          Projects
+        </Link>
+        <Link to="contact"   spy={true} smooth={true} offset={-150} duration={500} className=" cursor-pointer mb-[10px] bg-none font-bold"
+        activeClass="text-[#80277D] text-1xl border-b-2 border-purple-900">
+          Contact Me 
+        </Link>
+      </p>
+
        
 
      
@@ -73,7 +104,7 @@ const Navbar = () => {
         </Link>
         <Link to="contact"   spy={true} smooth={true} offset={-150} duration={500} className=" cursor-pointer mr-[20px] bg-none font-bold"
         activeClass="text-[#80277D] text-1xl border-b-2 border-purple-900">
-          Contact Us
+          Contact Me
         </Link>
       </p>
 

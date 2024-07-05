@@ -1,4 +1,4 @@
-import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 import AOS from "aos";
 import { useEffect } from "react";
 import { useState } from "react";
