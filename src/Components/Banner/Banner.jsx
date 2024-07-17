@@ -1,7 +1,7 @@
 
 import img1 from '../../assets/Image/israt.jpg'
 
-import resume from '../../assets/resume/israt jahan resume.pdf'
+import resume from '../../assets/resume/Israr jahan (6).pdf'
 import './Banner.css'
 import Typewriter from 'typewriter-effect';
 const Banner = () => {
